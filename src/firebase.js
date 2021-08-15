@@ -1,6 +1,6 @@
+import firebase from 'firebase/app';
 
-
-const firebaseConfig = {
+var firebaseConfig = {
     apiKey: "AIzaSyB-FUcq-OxmckTxewkPTpWGo_QfFlElOHA",
     authDomain: "nwitter-5dd26.firebaseapp.com",
     projectId: "nwitter-5dd26",
@@ -11,4 +11,4 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+export default firebase.initializeApp(firebaseConfig);
